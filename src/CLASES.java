@@ -14,9 +14,6 @@ public class CLASES {
             System.out.println("¿Cuál es tu profesion?");
             profesion = in.nextLine();
 
-            System.out.println("¿Cuál es tu nacionalidad?");
-            nacionalidad = in.nextLine();
-
             System.out.println("Nombre: " + nombre.toUpperCase() + "\nProfesion: " + profesion.toUpperCase() +
                     "\nNacinalidad: " + nacionalidad.toUpperCase());
         }
