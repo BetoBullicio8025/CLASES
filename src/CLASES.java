@@ -8,14 +8,11 @@ public class CLASES {
 
             String nombre = "", profesion = "", nacionalidad = "";
 
-            System.out.println("¿Cuál es tu nombre?");
+            System.out.println("¿Cuál es tu nombre completo?");
             nombre = in.nextLine();
 
             System.out.println("¿Cuál es tu profesion?");
             profesion = in.nextLine();
-
-            System.out.println("¿Cuál es tu nacionalidad?");
-            nacionalidad = in.nextLine();
 
             System.out.println("Nombre: " + nombre.toUpperCase() + "\nProfesion: " + profesion.toUpperCase() +
                     "\nNacinalidad: " + nacionalidad.toUpperCase());
